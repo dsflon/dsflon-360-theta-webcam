@@ -8,6 +8,9 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 	<link href="./common/css/common.css" rel="stylesheet">
 	<link href="./common/css/threedemo.css" rel="stylesheet">
+	<style>
+		#play { left: 50%; }
+	</style>
 
 	<script id="vs" type="x-shader/x-vertex">
 
@@ -136,8 +139,8 @@
 <div id="video"></div>
 <div id="loading">Loading ...</div>
 <div id="play" class="disabled">▶</div>
-<div id="stop" class="disabled">■</div>
-<div id="volume" class="disabled">♪</div>
+<div id="stop" class="disabled" style="display: none;">■</div>
+<div id="volume" class="disabled" style="display: none;">♪</div>
 <div id="reload" class="disabled" onclick="location.reload()"></div>
 
 <canvas id="canvas"></canvas>
