@@ -1,6 +1,6 @@
 # page
 
-shaderを利用し全天球動画をリアルタイムに変換します。
+shaderを利用し全天球動画をリアルタイムに変換します。  
 THETA を web camera として接続します。
 
 ## default
